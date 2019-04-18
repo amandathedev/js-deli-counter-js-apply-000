@@ -6,7 +6,18 @@
 //   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
 // }
 
+takeANumber(line) -> 1 
+takeANumber(line) -> 2 
+nowServing(Line) -> 1 
+nowServing(line) -> 2 
+nowServing(line) -> 3 
 
+let person = 0;
+
+function takeANumber (line) {
+  person += 1;
+  return person;
+}
 
 
 
