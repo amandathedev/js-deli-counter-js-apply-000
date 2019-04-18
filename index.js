@@ -5,12 +5,12 @@
 //   // Return message with name and position in line
 //   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
 // }
-let line = []
+let line = [3]
 takeANumber(line) -> 1 
 takeANumber(line) -> 2 
 nowServing(Line) -> 1 
 nowServing(line) -> 2 
-nowServing(line) -> 3 
+takeANumber(line) -> 3 
 
 let person = 0;
 
