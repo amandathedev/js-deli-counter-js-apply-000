@@ -1,8 +1,8 @@
 // Declare a function with two parameters
 function takeANumber (katzDeliLine, name) {
-  // Push the name to the array for each number in line
+  // Push the person's name to the array for each position/number in line
   katzDeliLine.push(name);
-  // Return message with name and position in line, without starting at index 0
+  // Return message with name and position in line
   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
 }
 
