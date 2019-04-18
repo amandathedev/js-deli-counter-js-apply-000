@@ -5,7 +5,7 @@
 //   // Return message with name and position in line
 //   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
 // }
-
+let line = []
 takeANumber(line) -> 1 
 takeANumber(line) -> 2 
 nowServing(Line) -> 1 
@@ -16,6 +16,7 @@ let person = 0;
 
 function takeANumber (line) {
   person += 1;
+  line.push(person);
   return person;
 }
 
