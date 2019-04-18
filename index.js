@@ -1,10 +1,13 @@
 // Declare a function with two parameters
-function takeANumber (katzDeliLine, name) {
-  // Push the person's name to the array for each position/number in line
-  katzDeliLine.push(name);
-  // Return message with name and position in line
-  return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
-}
+// function takeANumber (katzDeliLine, name) {
+//   // Push the person's name to the array for each position/number in line
+//   katzDeliLine.push(name);
+//   // Return message with name and position in line
+//   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
+// }
+
+
+
 
 
 // Declare a function that accepts the current line of people
@@ -39,6 +42,8 @@ function currentLine (katzDeliLine) {
     return "The line is currently: " + line.join(", ");
     }
   }
+
+
 
 
 
